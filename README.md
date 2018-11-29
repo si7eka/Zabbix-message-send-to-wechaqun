@@ -186,16 +186,16 @@ send_msg_group(token_id,data)
 更多请参考官方文档
 
 ## 6. “报警信息”展示
-手机端
+手机端  
 ![image](https://res.cloudinary.com/liz/image/upload/v1543481727/Zabbix-message-send-to-wechaqun/50.jpg)
 
-PC端
+PC端   
 ![image](https://res.cloudinary.com/liz/image/upload/v1543482654/Zabbix-message-send-to-wechaqun/51.jpg)
 
 
 ## 7. 参考资料
-资源下载  
-https://github.com/si7eka/Android-devices-monitoring-with-Zabbix
+资源下载
+https://github.com/si7eka/Zabbix-message-send-to-wechaqun
 
 配置动作
 https://www.zabbix.com/documentation/3.4/zh/manual/config/notifications/action
