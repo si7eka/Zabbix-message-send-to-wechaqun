@@ -54,8 +54,8 @@ def get_access_token():
 token_id = get_access_token().get('access_token')
 data = {
     "name" : "测试群",        # 群聊名 (选填）
-    "owner" : "zhengli",      # 指定群主的id （选填）
-    "userlist" : ["zhengli", "caogang"],    # 群成员id列表，至少2人（必填）
+    "owner" : "user1",      # 指定群主的id （选填）
+    "userlist" : ["user1", "user2"],    # 群成员id列表，至少2人（必填）
 }
 
 print token_id
