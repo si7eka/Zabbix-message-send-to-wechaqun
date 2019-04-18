@@ -54,8 +54,8 @@ def get_access_token():
 token_id = get_access_token().get('access_token')
 data = {
     "name" : "测试群",        # 群聊名 (选填）
-    "owner" : "user1",      # 指定群主的id （选填）
-    "userlist" : ["user1", "user2"],    # 群成员id列表，至少2人（必填）
+    "owner" : "zhengli",      # 指定群主的id （选填）
+    "userlist" : ["zhengli", "caogang"],    # 群成员id列表，至少2人（必填）
 }
 
 print token_id
@@ -144,17 +144,17 @@ send_msg_group(token_id,data)
 
 ## 5. zabbix 前端操作
 #### 1). 报警媒体类型
-![image](https://res.cloudinary.com/liz/image/upload/v1543481726/Zabbix-message-send-to-wechaqun/10.jpg)
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26ur1ig7hj20kr0c1dg5.jpg)
 更多请参考官方文档
 
 #### 2). 用户
-![image](https://res.cloudinary.com/liz/image/upload/v1543481726/Zabbix-message-send-to-wechaqun/20.jpg)
-![image](https://res.cloudinary.com/liz/image/upload/v1543481726/Zabbix-message-send-to-wechaqun/30.jpg)
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26urbqlkfj20en07yglq.jpg)
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26urlv8p3j20ie0beaa8.jpg)
 
 
 更多请参考官方文档
 #### 3). 动作
-![image](https://res.cloudinary.com/liz/image/upload/v1543481726/Zabbix-message-send-to-wechaqun/40.png)
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26urvt1lwj21400scgnw.jpg)
 
 如果接收信息的人比较复杂建议使用组来管理
 
@@ -187,11 +187,10 @@ send_msg_group(token_id,data)
 
 ## 6. “报警信息”展示
 手机端  
-![image](https://res.cloudinary.com/liz/image/upload/v1543481727/Zabbix-message-send-to-wechaqun/50.jpg)
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26us7iamkj20ku112q5f.jpg)
 
 PC端   
-![image](https://res.cloudinary.com/liz/image/upload/v1543482654/Zabbix-message-send-to-wechaqun/51.jpg)
-
+![](https://ws1.sinaimg.cn/large/6c1fc47bly1g26uscx0haj20gb0e73z3.jpg)
 
 ## 7. 参考资料
 资源下载
